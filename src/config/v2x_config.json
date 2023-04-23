@@ -1,0 +1,33 @@
+{
+	"stack": "us_its",
+	"us_its": {
+		"p16093": {
+			"wsmp_version": 3,
+			"num_phy": 2,
+			"phy0": {
+				"transmit_channel": 172
+			},
+			"phy1": {
+				"transmit_channel": "auto"
+			}
+		},
+		"p16092": {
+			"randomize_mac": true,
+			"randomize_interval_ms": 3000
+		}
+	},
+	"etsi_its": {
+		"geonet": {
+			"randomize_mac": true
+		}
+	},
+	"services": {
+		"vehicle": {
+			"vehicle_bsm_enable": 1,
+			"bsm": {
+				"phy_in_use": "phy0"
+			}
+		}
+	}
+}
+
